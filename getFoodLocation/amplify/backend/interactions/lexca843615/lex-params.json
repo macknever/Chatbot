@@ -1,0 +1,25 @@
+{
+    "resourceName": "lexca843615",
+    "botName": "ShoppingAssistant",
+    "intents": [
+        {
+            "slots": [
+                {
+                    "name": "Location",
+                    "type": "AMAZON.Airport",
+                    "prompt": "where are you",
+                    "required": true,
+                    "customType": false
+                }
+            ],
+            "utterances": [
+                "find a car"
+            ],
+            "intentName": "car",
+            "newSlotTypes": []
+        }
+    ],
+    "outputVoice": false,
+    "sessionTimeout": 5,
+    "coppa": false
+}
